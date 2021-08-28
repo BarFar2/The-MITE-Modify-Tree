@@ -294,7 +294,7 @@ addLayer("c", {
     position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
     startData() { return {
         unlocked: true,
-		points: new OmegaNum(0),
+		//points: new OmegaNum(0),
 
         qs:"无",
         ws:"无",
@@ -309,7 +309,7 @@ addLayer("c", {
         willMake:"无",
     }},
     color: "#DDFFDD",
-    resource: "工作台等级", // Name of prestige currency
+    resource: "???", // Name of prestige currency
     //type: "none", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
     gainMult() { // Calculate the multiplier for main currency from bonuses
         craft("草","草","无","草","无","无","无","无","无","纤维绳")
