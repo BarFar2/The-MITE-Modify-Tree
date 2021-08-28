@@ -756,16 +756,16 @@ addLayer("grv", {
         11: {
             canClick() {
                 if (player.grv.using == "燧石锹" && player.k.燧石锹.gt(0)) {
-                    return player.points.gte(15)
+                    return player.points.gte(10)
                 } else {
-                    return player.points.gte(30)
+                    return player.points.gte(20)
                 }
             },
             display() {
                 if (player.grv.using == "燧石锹" && player.k.燧石锹.gt(0)) {
-                    return "重置你的时间获得1个沙砾(需要15时间)"
+                    return "重置你的时间获得1个沙砾(需要10时间)"
                 } else {
-                    return "重置你的时间获得1个沙砾(需要30时间)"
+                    return "重置你的时间获得1个沙砾(需要20时间)"
                 }
             },
             onClick() {
